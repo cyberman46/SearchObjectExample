@@ -12,6 +12,8 @@
 		900B99BE202042F60012B452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900B99BC202042F60012B452 /* Main.storyboard */; };
 		900B99C0202042F60012B452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900B99BF202042F60012B452 /* Assets.xcassets */; };
 		900B99C3202042F60012B452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900B99C1202042F60012B452 /* LaunchScreen.storyboard */; };
+		900B99CB202043FE0012B452 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B99CA202043FE0012B452 /* TableViewCell.swift */; };
+		900B99CD202045380012B452 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B99CC202045380012B452 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		900B99BF202042F60012B452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900B99C2202042F60012B452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900B99C4202042F60012B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900B99CA202043FE0012B452 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		900B99CC202045380012B452 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				900B99BF202042F60012B452 /* Assets.xcassets */,
 				900B99C1202042F60012B452 /* LaunchScreen.storyboard */,
 				900B99C4202042F60012B452 /* Info.plist */,
+				900B99CA202043FE0012B452 /* TableViewCell.swift */,
+				900B99CC202045380012B452 /* model.swift */,
 			);
 			path = Sapp;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900B99CB202043FE0012B452 /* TableViewCell.swift in Sources */,
 				900B99BB202042F60012B452 /* ViewController.swift in Sources */,
 				900B99B9202042F60012B452 /* AppDelegate.swift in Sources */,
+				900B99CD202045380012B452 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
